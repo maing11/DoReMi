@@ -17,6 +17,16 @@
 		CA41AE5F26C9B5410050FD6F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE5E26C9B5410050FD6F /* HomeViewController.swift */; };
 		CA41AE6126C9B5630050FD6F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE6026C9B5630050FD6F /* SearchViewController.swift */; };
 		CA41AE6326C9B5720050FD6F /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE6226C9B5720050FD6F /* LibraryViewController.swift */; };
+		CA41AE6526C9C1700050FD6F /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE6426C9C1700050FD6F /* AuthManager.swift */; };
+		CA41AE6726C9C1890050FD6F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE6626C9C1890050FD6F /* APICaller.swift */; };
+		CA41AE6926C9C1A70050FD6F /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE6826C9C1A70050FD6F /* HapticManager.swift */; };
+		CA41AE6B26C9C3140050FD6F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE6A26C9C3140050FD6F /* WelcomeViewController.swift */; };
+		CA41AE6D26C9C34B0050FD6F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE6C26C9C34B0050FD6F /* SettingsViewController.swift */; };
+		CA41AE6F26C9C3670050FD6F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE6E26C9C3670050FD6F /* ProfileViewController.swift */; };
+		CA41AE7126C9C3750050FD6F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7026C9C3750050FD6F /* PlayerViewController.swift */; };
+		CA41AE7326C9C3810050FD6F /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7226C9C3810050FD6F /* PlaylistViewController.swift */; };
+		CA41AE7526C9C3BA0050FD6F /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7426C9C3BA0050FD6F /* SearchResultViewController.swift */; };
+		CA41AE7726C9C3D30050FD6F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7626C9C3D30050FD6F /* AuthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,16 @@
 		CA41AE5E26C9B5410050FD6F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CA41AE6026C9B5630050FD6F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CA41AE6226C9B5720050FD6F /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		CA41AE6426C9C1700050FD6F /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		CA41AE6626C9C1890050FD6F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		CA41AE6826C9C1A70050FD6F /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		CA41AE6A26C9C3140050FD6F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CA41AE6C26C9C34B0050FD6F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CA41AE6E26C9C3670050FD6F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CA41AE7026C9C3750050FD6F /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		CA41AE7226C9C3810050FD6F /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		CA41AE7426C9C3BA0050FD6F /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		CA41AE7626C9C3D30050FD6F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +141,9 @@
 		CA41AE5926C9B4E00050FD6F /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				CA41AE6426C9C1700050FD6F /* AuthManager.swift */,
+				CA41AE6626C9C1890050FD6F /* APICaller.swift */,
+				CA41AE6826C9C1A70050FD6F /* HapticManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -128,6 +151,13 @@
 		CA41AE5A26C9B4EE0050FD6F /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CA41AE7626C9C3D30050FD6F /* AuthViewController.swift */,
+				CA41AE6A26C9C3140050FD6F /* WelcomeViewController.swift */,
+				CA41AE6C26C9C34B0050FD6F /* SettingsViewController.swift */,
+				CA41AE6E26C9C3670050FD6F /* ProfileViewController.swift */,
+				CA41AE7026C9C3750050FD6F /* PlayerViewController.swift */,
+				CA41AE7226C9C3810050FD6F /* PlaylistViewController.swift */,
+				CA41AE7426C9C3BA0050FD6F /* SearchResultViewController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -214,12 +244,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA41AE6126C9B5630050FD6F /* SearchViewController.swift in Sources */,
+				CA41AE6526C9C1700050FD6F /* AuthManager.swift in Sources */,
+				CA41AE6B26C9C3140050FD6F /* WelcomeViewController.swift in Sources */,
+				CA41AE7126C9C3750050FD6F /* PlayerViewController.swift in Sources */,
 				CA41AE5F26C9B5410050FD6F /* HomeViewController.swift in Sources */,
 				CA41AE5D26C9B52D0050FD6F /* TabBarViewController.swift in Sources */,
+				CA41AE6726C9C1890050FD6F /* APICaller.swift in Sources */,
 				CA41AE4526C9B49D0050FD6F /* ViewController.swift in Sources */,
+				CA41AE6926C9C1A70050FD6F /* HapticManager.swift in Sources */,
+				CA41AE7726C9C3D30050FD6F /* AuthViewController.swift in Sources */,
 				CA41AE6326C9B5720050FD6F /* LibraryViewController.swift in Sources */,
 				CA41AE4126C9B49D0050FD6F /* AppDelegate.swift in Sources */,
+				CA41AE7326C9C3810050FD6F /* PlaylistViewController.swift in Sources */,
+				CA41AE6F26C9C3670050FD6F /* ProfileViewController.swift in Sources */,
 				CA41AE4326C9B49D0050FD6F /* SceneDelegate.swift in Sources */,
+				CA41AE7526C9C3BA0050FD6F /* SearchResultViewController.swift in Sources */,
+				CA41AE6D26C9C34B0050FD6F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
