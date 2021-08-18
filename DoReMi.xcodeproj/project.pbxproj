@@ -27,6 +27,11 @@
 		CA41AE7326C9C3810050FD6F /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7226C9C3810050FD6F /* PlaylistViewController.swift */; };
 		CA41AE7526C9C3BA0050FD6F /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7426C9C3BA0050FD6F /* SearchResultViewController.swift */; };
 		CA41AE7726C9C3D30050FD6F /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7626C9C3D30050FD6F /* AuthViewController.swift */; };
+		CA41AE7926C9E9260050FD6F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7826C9E9260050FD6F /* Extensions.swift */; };
+		CA41AE7B26CCD51E0050FD6F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7A26CCD51E0050FD6F /* UserProfile.swift */; };
+		CA41AE7F26CCD7580050FD6F /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA41AE7E26CCD7580050FD6F /* SettingsModels.swift */; };
+		CAB002E826CDAE6200650576 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB002E726CDAE6200650576 /* AuthResponse.swift */; };
+		CAB002EA26CDC27000650576 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB002E926CDC27000650576 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,11 @@
 		CA41AE7226C9C3810050FD6F /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		CA41AE7426C9C3BA0050FD6F /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		CA41AE7626C9C3D30050FD6F /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		CA41AE7826C9E9260050FD6F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CA41AE7A26CCD51E0050FD6F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		CA41AE7E26CCD7580050FD6F /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
+		CAB002E726CDAE6200650576 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		CAB002E926CDC27000650576 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +100,11 @@
 				CA41AE5626C9B4B30050FD6F /* Controllers */,
 				CA41AE5926C9B4E00050FD6F /* Managers */,
 				CA41AE5826C9B4CF0050FD6F /* Resources */,
-				CA41AE4026C9B49D0050FD6F /* AppDelegate.swift */,
-				CA41AE4226C9B49D0050FD6F /* SceneDelegate.swift */,
 				CA41AE4426C9B49D0050FD6F /* ViewController.swift */,
 				CA41AE4626C9B49D0050FD6F /* Main.storyboard */,
-				CA41AE4926C9B49F0050FD6F /* Assets.xcassets */,
 				CA41AE4B26C9B49F0050FD6F /* LaunchScreen.storyboard */,
 				CA41AE4E26C9B49F0050FD6F /* Info.plist */,
+				CAB002E926CDC27000650576 /* Constants.swift */,
 			);
 			path = DoReMi;
 			sourceTree = "<group>";
@@ -104,6 +112,9 @@
 		CA41AE5426C9B4A60050FD6F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CA41AE7A26CCD51E0050FD6F /* UserProfile.swift */,
+				CA41AE7E26CCD7580050FD6F /* SettingsModels.swift */,
+				CAB002E726CDAE6200650576 /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -134,6 +145,10 @@
 		CA41AE5826C9B4CF0050FD6F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CA41AE4026C9B49D0050FD6F /* AppDelegate.swift */,
+				CA41AE4226C9B49D0050FD6F /* SceneDelegate.swift */,
+				CA41AE4926C9B49F0050FD6F /* Assets.xcassets */,
+				CA41AE7826C9E9260050FD6F /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -244,8 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA41AE6126C9B5630050FD6F /* SearchViewController.swift in Sources */,
+				CAB002EA26CDC27000650576 /* Constants.swift in Sources */,
+				CA41AE7926C9E9260050FD6F /* Extensions.swift in Sources */,
 				CA41AE6526C9C1700050FD6F /* AuthManager.swift in Sources */,
 				CA41AE6B26C9C3140050FD6F /* WelcomeViewController.swift in Sources */,
+				CAB002E826CDAE6200650576 /* AuthResponse.swift in Sources */,
+				CA41AE7F26CCD7580050FD6F /* SettingsModels.swift in Sources */,
 				CA41AE7126C9C3750050FD6F /* PlayerViewController.swift in Sources */,
 				CA41AE5F26C9B5410050FD6F /* HomeViewController.swift in Sources */,
 				CA41AE5D26C9B52D0050FD6F /* TabBarViewController.swift in Sources */,
@@ -256,6 +275,7 @@
 				CA41AE6326C9B5720050FD6F /* LibraryViewController.swift in Sources */,
 				CA41AE4126C9B49D0050FD6F /* AppDelegate.swift in Sources */,
 				CA41AE7326C9C3810050FD6F /* PlaylistViewController.swift in Sources */,
+				CA41AE7B26CCD51E0050FD6F /* UserProfile.swift in Sources */,
 				CA41AE6F26C9C3670050FD6F /* ProfileViewController.swift in Sources */,
 				CA41AE4326C9B49D0050FD6F /* SceneDelegate.swift in Sources */,
 				CA41AE7526C9C3BA0050FD6F /* SearchResultViewController.swift in Sources */,
